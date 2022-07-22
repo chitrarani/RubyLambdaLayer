@@ -14,13 +14,27 @@ GEM
       tzinfo (~> 1.1)
     arel (9.0.0)
     concurrent-ruby (1.1.4)
+    diff-lcs (1.5.0)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     json (2.2.0)
     minitest (5.11.3)
     pg (1.1.4)
+    rspec (3.11.0)
+      rspec-core (~> 3.11.0)
+      rspec-expectations (~> 3.11.0)
+      rspec-mocks (~> 3.11.0)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.11.0)
+    rspec-support (3.11.0)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
 
 PLATFORMS
@@ -30,6 +44,7 @@ DEPENDENCIES
   activerecord
   json
   pg
+  rspec (~> 3.8)
 
 BUNDLED WITH
    2.0.1
